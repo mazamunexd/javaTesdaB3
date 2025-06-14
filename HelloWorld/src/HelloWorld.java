@@ -20,23 +20,11 @@ public class HelloWorld {
     This is a multi line comment
     This is a multi line comment
     This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
-    This is a multi line comment
     */
+
+    /**
+     * 
+     */
 
     }
 }
