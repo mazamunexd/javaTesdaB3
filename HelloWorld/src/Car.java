@@ -7,7 +7,6 @@ public class Car {
     String carColor;
 
     // Constructor 1: Default Constructor
-    // This constructor is used when you create a Car object without providing specific details.
     public Car() {
         System.out.println("A new car object is being created (default constructor called).");
         carBrand = "Unknown"; // Default brand
@@ -20,14 +19,13 @@ public class Car {
     // This constructor is used when you create a Car object and provide initial details.
     public Car(String brand, String model, int year, String color) {
         System.out.println("A new car object is being created with specific details (parameterized constructor called).");
-        carBrand = brand;   // Assigning the parameter 'brand' to the instance variable 'carBrand'
-        carModel = model;   // Assigning the parameter 'model' to the instance variable 'carModel'
+        carBrand = brand;  
+        carModel = model;   
         carYear = year;
         carColor = color;
     }
 
     // Instance Method (Behavior of a Car)
-    // This method displays information about the car.
     public void displayCarInfo() {
         System.out.println("--- Car Information ---");
         System.out.println("Brand: " + carBrand);
@@ -44,15 +42,15 @@ public class Car {
 
         // --- Creating Instances (objects) of the Car class ---
 
-        // Using the default constructor to create Car 1
+        // Using constructor to create Car 1
         System.out.println("Creating Car 1:");
         Car car1 = new Car(); // This calls the default constructor
         car1.displayCarInfo(); // Display car1's information
         System.out.println();
 
-        // Using the parameterized constructor to create Car 2
+        // Using parameterized constructor to create Car 2
         System.out.println("Creating Car 2:");
-        Car car2 = new Car("Toyota", "Camry", 2023, "Blue"); // This calls the parameterized constructor
+        Car car2 = new Car("Toyota", "Camry", 2023, "Blue"); 
         car2.displayCarInfo(); // Display car2's information
         System.out.println();
 
