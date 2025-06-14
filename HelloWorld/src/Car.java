@@ -34,14 +34,13 @@ public class Car {
         System.out.println("-----------------------");
     }
 
-    // Main Method
     public static void main(String[] args) {
 
         System.out.println("Starting the Car program...\n");
 
         // --- Creating Instances (objects) of the Car class ---
 
-        // Using constructor to create Car 1
+        // car1 constructor
         System.out.println("Creating Car 1:");
         Car car1 = new Car(); 
         car1.displayCarInfo(); 

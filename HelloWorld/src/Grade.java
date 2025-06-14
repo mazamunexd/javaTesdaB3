@@ -1,4 +1,4 @@
-/** public class Grade {
+public class Grade {
     char grade;
 
     public void calculateGrade() {
@@ -26,4 +26,3 @@
         gradeCalculator.calculateGrade();
     }
 } 
-*/
