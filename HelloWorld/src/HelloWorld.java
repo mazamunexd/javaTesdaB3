@@ -1,3 +1,8 @@
+/**
+ * this line is an import
+ * for class HelloWorld
+ */
+
 public class HelloWorld {
   
 	public static void main(String[] args) {
@@ -21,10 +26,6 @@ public class HelloWorld {
     This is a multi line comment
     This is a multi line comment
     */
-
-    /**
-     * 
-     */
 
     }
 }

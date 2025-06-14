@@ -1,6 +1,6 @@
 public class Car {
 
-    // Instance Variables (Attributes of a Car)
+    // Instance Variables
     String carBrand;
     String carModel;
     int carYear;
@@ -16,7 +16,6 @@ public class Car {
     }
 
     // Constructor 2: Parameterized Constructor
-    // This constructor is used when you create a Car object and provide initial details.
     public Car(String brand, String model, int year, String color) {
         System.out.println("A new car object is being created with specific details (parameterized constructor called).");
         carBrand = brand;  
@@ -25,7 +24,7 @@ public class Car {
         carColor = color;
     }
 
-    // Instance Method (Behavior of a Car)
+    // Instance Method 
     public void displayCarInfo() {
         System.out.println("--- Car Information ---");
         System.out.println("Brand: " + carBrand);
@@ -35,7 +34,7 @@ public class Car {
         System.out.println("-----------------------");
     }
 
-    // Main Method (Where we run our code)
+    // Main Method
     public static void main(String[] args) {
 
         System.out.println("Starting the Car program...\n");
@@ -44,14 +43,14 @@ public class Car {
 
         // Using constructor to create Car 1
         System.out.println("Creating Car 1:");
-        Car car1 = new Car(); // This calls the default constructor
-        car1.displayCarInfo(); // Display car1's information
+        Car car1 = new Car(); 
+        car1.displayCarInfo(); 
         System.out.println();
 
         // Using parameterized constructor to create Car 2
         System.out.println("Creating Car 2:");
         Car car2 = new Car("Toyota", "Camry", 2023, "Blue"); 
-        car2.displayCarInfo(); // Display car2's information
+        car2.displayCarInfo(); 
         System.out.println();
 
         System.out.println("Creating Car 3:");
